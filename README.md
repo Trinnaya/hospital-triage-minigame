@@ -43,10 +43,12 @@ You just need a C++ compiler (like `g++`).
 ```
 Ja-crazy/
 ├── main.cpp      # the game loop and story
-├── doctor.h      # the Doctor class + the doctor linked list
+├── doctor.h      # Doctor class, each holding an urgency-sorted patient list,
+│                 #   plus LL, the linked list of doctors
 ├── patient.h     # the Patient class
-├── urgency.h     # the urgency record
-├── bst.h         # the urgency binary search tree
+├── urgency.h     # small record pairing an urgency level with a doctor
+├── bst.h         # binary search tree keyed on urgency level (insert only —
+│                 #   traversal not yet wired into the output)
 └── makefile      # build/run shortcuts
 ```
 
