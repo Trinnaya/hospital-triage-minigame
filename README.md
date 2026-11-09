@@ -53,10 +53,8 @@ Ja-crazy/
 
 ## My contribution
 
-Group project for Advanced Computer Programming course. 
-I implemented the binary search tree and the linked list
-that order patients by urgency, and the input validation that handles
-unexpected or malformed entries.
+Group project for Advanced Computer Programming course. I implemented the linked list that 
+order patients by urgency for each doctor, and the input validation that rejects unknown doctors and out-of-range urgency levels.
 
 Forked from the team repository to keep it on my own profile.
 
