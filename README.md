@@ -49,6 +49,17 @@ Ja-crazy/
 ├── bst.h         # the urgency binary search tree
 └── makefile      # build/run shortcuts
 ```
+
+
+## My contribution
+
+Group project for Advanced Computer Programming course. 
+I implemented the binary search tree and the linked list
+that order patients by urgency, and the input validation that handles
+unexpected or malformed entries.
+
+Forked from the team repository to keep it on my own profile.
+
 ## Team
 6581147 Trinnaya Damrongpatharawat\
 6581053 Jinjutha Yolsirivat\
